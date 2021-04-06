@@ -1,0 +1,94 @@
+/* Mengatur link button */
+.button {
+  z-index: 1;
+  margin-left: 10px;
+  opacity: 0.9;
+  background-color: rgb(221, 162, 85);
+  width: 100px;
+  /* height: 40px; */
+  padding: 4px 4px 4px 10px;
+  border: 2px black solid;
+  border-radius: 40px;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 22px;
+}
+/* Style Judul Utama */
+.judul {
+  text-align: center;
+  font-style: italic;
+  text-shadow: 1px 1px whitesmoke;
+  z-index: 1;
+}
+/* Background Website */
+.background {
+  display: flex;
+  flex-direction: row;
+  background: url("./Bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+/* Menghapus padding dan margin */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Mengatur Style pada Tabel */
+.tabel {
+  text-align: center;
+  text-shadow: 1px 1px whitesmoke;
+  font-weight: 700;
+  background-color: rgba(255, 217, 0, 0.15);
+}
+/* Mengatur side bar (field kiri) */
+.field-kiri {
+  width: 17vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+/* Mengatur field kanan beserta memberikan scroll khusus */
+.field-kanan {
+  width: 83vw;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+/* Style kotak */
+.kotak {
+  width: 400px;
+  border: 1px solid purple;
+  margin: 15% auto;
+  background-color: gray;
+}
+
+/* Mengatur font judul2 */
+.judul2 {
+  color: wheat;
+  text-align: center;
+  font-size: 28px;
+  padding: 4px;
+}
+
+/* Mengatur margin dan padding table*/
+.khusus {
+  margin: auto;
+  padding: 4px;
+}
+
+/*mengatur style button submit dan reset*/
+.submit,
+.reset {
+  padding: 8px 10px;
+  background: wheat;
+  color: #4d3f52;
+  border: 1px solid purple;
+  border-radius: 2px;
+}
